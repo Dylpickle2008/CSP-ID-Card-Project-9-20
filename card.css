@@ -1,0 +1,22 @@
+.name {
+padding: 2px;
+border: 3px dashed skyblue;  
+}
+
+.card{
+    border: 5px solid black;
+    width: 100%; 
+}
+
+.card-body{
+    padding: 5px;
+    width: 800px; 
+    border: 3px solid black; 
+    margin: 10px; 
+}
+
+.card-hobbies{
+    padding: 5px; 
+    width: 800px; 
+    border: 3px solid black; 
+}
