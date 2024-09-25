@@ -1,14 +1,30 @@
+.background{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: gainsboro; 
+}
+
+.card{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: 5px solid black;
+    width: 300px; 
+    height: 800px; 
+    background-color: bisque; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    align-content: center; 
+}
+
 .name {
 padding: 2px;
 border: 3px dashed skyblue;  
 }
 
-.card{
-    border: 5px solid black;
-    width: 100%; 
-}
-
 .card-body{
+    justify-content: center; 
     padding: 5px;
     width: 800px; 
     border: 3px solid black; 
@@ -17,6 +33,6 @@ border: 3px dashed skyblue;
 
 .card-hobbies{
     padding: 5px; 
-    width: 800px; 
+    width: 250px; 
     border: 3px solid black; 
 }
