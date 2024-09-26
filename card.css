@@ -1,9 +1,14 @@
 .background{
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    background-color: gainsboro; 
+    justify-content: left; 
+    align-items: left; 
+    background-color: gainsboro;
+    background-image: url("https://naturesdepths.com/wp/wp-content/uploads/Meadow-Naches-Peal-Trail-350.jpg");
+    background-size: cover; 
+    background-position: center;  
 }
+
+
 
 .card{
     display: flex;
@@ -15,7 +20,9 @@
     background-color: bisque; 
     gap: 20px; 
     flex-wrap: wrap; 
-    align-content: center; 
+    align-content: center;
+    box-shadow: 10px 10px 20px rgba(24, 23, 23, 0.5);
+    opacity: 0.68;
 }
 
 .name {
@@ -23,8 +30,8 @@ padding: 2px;
 border: 3px dashed skyblue;  
 }
 
-.card-body{
-    justify-content: center; 
+.card-body{  
+    text-align: center; 
     padding: 5px;
     width: 800px; 
     border: 3px solid black; 
@@ -33,6 +40,10 @@ border: 3px dashed skyblue;
 
 .card-hobbies{
     padding: 5px; 
-    width: 250px; 
+    width: 150px; 
     border: 3px solid black; 
+}
+
+h2{
+text-align: center; 
 }
