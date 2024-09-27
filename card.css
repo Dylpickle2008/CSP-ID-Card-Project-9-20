@@ -21,8 +21,10 @@
     gap: 20px; 
     flex-wrap: wrap; 
     align-content: center;
-    box-shadow: 10px 10px 20px rgba(24, 23, 23, 0.5);
-    opacity: 0.68;
+    opacity: 0.70;
+    transition: 0.3s;
+    box-shadow: 0 20px 20px 0 black;
+    border-radius: 5px;
 }
 
 .name {
@@ -47,3 +49,11 @@ border: 3px dashed skyblue;
 h2{
 text-align: center; 
 }
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+img {
+    border-radius: 5px 5px 0 0;
+  }
